@@ -1,0 +1,23 @@
+{
+  "name": "ec1tv",
+  "version": "0.1.16",
+  "private": true,
+  "description": "Core LG webOS launcher source and family setup guide",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "setup": "node tools/setup.cjs",
+    "package": "node webos-app/tools/build.cjs"
+  },
+  "dependencies": {
+    "@azure/msal-node": "7.1.2",
+    "ssh2": "1.17.0"
+  },
+  "devDependencies": {
+    "@webos-tools/cli": "3.2.6"
+  }
+}

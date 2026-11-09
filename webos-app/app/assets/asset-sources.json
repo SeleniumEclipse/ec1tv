@@ -1,0 +1,56 @@
+{
+  "purpose": "Background photographs, typeface, and interface icon credits.",
+  "photos": [
+    {
+      "title": "Lake Sherburne",
+      "creator": "Glacier National Park / GlacierNPS",
+      "license": "Public domain",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Lake-sherburne-964855.jpg",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Lake-sherburne-964855.jpg",
+      "derivatives": [
+        "assets/lake-screen.jpg"
+      ],
+      "modifications": "Cropped and resized."
+    },
+    {
+      "title": "Avalanche Gorge in Glacier National Park",
+      "creator": "Glacier National Park / GlacierNPS",
+      "license": "Public domain",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Avalanche_Gorge_in_Glacier_National_Park_(54761817984).jpg",
+      "sourceImage": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Avalanche_Gorge_in_Glacier_National_Park_%2854761817984%29.jpg",
+      "derivatives": [
+        "assets/gorge-screen.jpg"
+      ],
+      "modifications": "Cropped and resized."
+    }
+  ],
+  "typography": {
+    "family": "Source Sans 3",
+    "creator": "Adobe",
+    "license": "SIL Open Font License 1.1",
+    "licenseFile": "assets/source-sans-OFL.txt",
+    "source": "https://github.com/adobe-fonts/source-sans",
+    "file": "assets/source-sans-3.ttf"
+  },
+  "appArtwork": "Native app icons are loaded from validated per-app paths on the TV. The desktop preview uses generic interface icons. Application artwork is credited to Focus Stage contributors; the chevron, check, and close icons are from Lucide.",
+  "reorderIcon": {
+    "file": "lucide-chevron-up.svg",
+    "source": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/chevron-up.svg",
+    "sha256": "d09f13fcbef3c493ead7e4663b5ee91804fec38d5edb5e7cc3acfbd547641cf4",
+    "license": "lucide-LICENSE.txt (Lucide ISC and Feather MIT)"
+  },
+  "tileControlIcons": [
+    {
+      "file": "lucide-check.svg",
+      "source": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/check.svg",
+      "sha256": "7f33acc9a77a61659531044525fc008edebe215bf4dcf1c789c8674ad3277db0",
+      "license": "lucide-LICENSE.txt (Lucide ISC and Feather MIT)"
+    },
+    {
+      "file": "lucide-x.svg",
+      "source": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/x.svg",
+      "sha256": "4a9cdab38fbb96162e7dace28e33f4ca0e49d8963a6162abc3d4691b7d675117",
+      "license": "lucide-LICENSE.txt (Lucide ISC and Feather MIT)"
+    }
+  ]
+}

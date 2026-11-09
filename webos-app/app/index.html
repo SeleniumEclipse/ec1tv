@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1920, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Focus Stage</title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+  <main id="screen" aria-label="Focus Stage home" data-launch-state="idle">
+    <img id="photo-current" class="scene" alt="">
+    <img id="photo-next" class="scene scene-next" alt="">
+    <div class="scene-shade" aria-hidden="true"></div>
+    <div id="home">
+      <p id="environment" hidden></p>
+      <nav class="toolbar" aria-label="Home controls">
+        <button data-action="photos" class="utility" type="button"><img src="assets/photos.svg" alt="">Photos</button>
+        <button data-action="menu" class="utility" type="button"><img src="assets/menu.svg" alt="">Menu</button>
+        <time id="clock"></time>
+      </nav>
+      <p id="inventory-status" role="status">Reading apps &amp; inputs…</p>
+      <div class="collection-region"><div id="apps" role="group" aria-label="Complete app and input rail"></div></div>
+      <button data-action="previous" class="browse-arrow previous" type="button" aria-label="Previous destination">‹</button>
+      <button data-action="next" class="browse-arrow next" type="button" aria-label="Next destination">›</button>
+      <footer class="footer">
+        <button data-action="all-apps" class="utility" type="button">All apps &amp; inputs<img src="assets/lucide-chevron-up.svg" alt=""></button>
+      </footer>
+    </div>
+    <div id="toast" role="status" hidden></div>
+    <section id="drawer" class="overlay app-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" hidden>
+      <div class="drawer-panel">
+        <header class="drawer-header">
+          <h2 id="drawer-title">All apps &amp; inputs</h2>
+          <p id="drawer-detail"></p>
+          <button data-action="close-drawer" class="close-button" type="button">Back</button>
+        </header>
+        <div id="grid-scroll"><div id="grid-content"></div></div>
+      </div>
+    </section>
+    <section id="menu" class="overlay utility-overlay" role="dialog" aria-modal="true" aria-labelledby="menu-title" hidden>
+      <div class="utility-panel">
+        <h2 id="menu-title">Menu</h2>
+        <button data-action="close-menu" class="close-button" type="button">Back</button>
+        <div id="menu-content"></div>
+      </div>
+    </section>
+  </main>
+  <script src="webos.js"></script>
+  <script src="fixtures.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

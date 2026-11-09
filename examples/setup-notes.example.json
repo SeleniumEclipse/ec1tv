@@ -1,0 +1,13 @@
+{
+  "purpose": "Personal setup worksheet; fill in and store outside the repository",
+  "tvAlias": "YOUR_OWN_TV_ALIAS",
+  "tvAddress": "YOUR_OWN_TV_LAN_ADDRESS",
+  "model": "YOUR_EXACT_MODEL_SUFFIX",
+  "firmware": "YOUR_CURRENT_FIRMWARE",
+  "verifiedHostFingerprint": "SHA256:YOUR_INDEPENDENTLY_VERIFIED_TV_HOST_KEY",
+  "clientKeyLocation": "YOUR_PRIVATE_KEY_LOCATION_OR_OS_SECRET_STORE",
+  "recoveryDirectory": "YOUR_PRIVATE_DIRECTORY_OUTSIDE_GIT_AND_PHOTOS",
+  "originalHomeAppId": "YOUR_TVS_CURRENT_HOME_APP_ID",
+  "homeSettingsBackedUp": false,
+  "homeButtonChecked": false
+}

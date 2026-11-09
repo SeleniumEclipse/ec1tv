@@ -1,0 +1,17 @@
+{
+  "id": "io.focusstage.home",
+  "version": "0.1.16",
+  "vendor": "Focus Stage",
+  "type": "web",
+  "main": "index.html",
+  "title": "Focus Stage",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png",
+  "bgColor": "#18242c",
+  "iconColor": "#18242c",
+  "resolution": "1920x1080",
+  "appCategory": ["home"],
+  "handlesRelaunch": false,
+  "inspectable": false,
+  "disableBackHistoryAPI": true
+}
